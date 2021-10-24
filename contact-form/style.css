@@ -1,0 +1,558 @@
+
+body {
+    background: rgb(226, 238, 224);
+}
+
+.freebirdFormviewerViewFormContentWrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+.freebirdFormviewerViewHeaderCard.freebirdFormviewerViewCenteredContent.freebirdViewerHeaderCard.freebirdHeaderCard { 
+    max-height: 22.5vw;
+    max-width: 90vw;
+    height: 160px;
+    width: 640px;
+}
+
+.freebirdFormviewerViewCenteredContent.freebirdViewerHeaderCard.freebirdHeaderCard{
+    background-image: url(https://lh4.googleusercontent.com/49dLlvmaALdeBausZ7eQYoghCjJuqRY10UkUhBxWh6Qi68k_787h406Wks4_0RktA6UETnckiC1rFQfZqTwZ0IbZOkiz6vtAzKAF0cay_OJTdti0yTBTherD0ePwJ8Qi8w=w1200);
+    background-size: cover;
+    background-position: center;
+}
+
+.freebirdViewerHeaderCard.freebirdHeaderCard {
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+
+.freebirdFormviewerViewCenteredContent {
+    margin: auto;
+    max-width: 90vw;
+    width: 640px;
+}
+
+.m2 .freebirdFormviewerViewFormCard {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    word-wrap: break-word;
+}
+.freebirdFormviewerViewFormCard {
+    background-color: #fff;
+    margin-bottom: 48px;
+    -webkit-box-shadow: 0 1px 4px 0 rgb(0 0 0 / 37%);
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 37%);
+    padding-bottom: 6px;
+    word-wrap: break-word;
+}
+
+.freebirdFormviewerViewFormContent {
+    color: #202124;
+}
+
+.m2 .freebirdFormviewerViewFormContent>div, .freebirdFormviewerViewFormContent>.freebirdFormviewerViewNoPadding {
+    padding: 0;
+}
+.freebirdFormviewerViewFormContent>div, .freebirdFormviewerViewFormContent>.freebirdFormviewerViewItemList>.freebirdFormviewerViewSubmitMessage {
+    padding: 0 34px;
+}
+
+.freebirdFormviewerViewHeaderHeader.draftResponseHeader.freebirdFormviewerViewHeaderHeader {
+    padding-bottom: 16px;
+}
+.m2 .freebirdFormviewerViewHeaderHeader {
+    margin-top: 12px;
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    padding: 24px;
+    padding-top: 22px;
+    position: relative;
+}
+.freebirdFormviewerViewHeaderHeader {
+    margin-bottom: 22px;
+}
+
+.freebirdFormviewerViewHeaderThemeStripe.freebirdSolidBackground {
+    background-color: rgb(61, 143, 45);
+    color: rgba(255, 255, 255, 1);
+}
+
+.freebirdFormviewerViewHeaderThemeStripe {
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    height: 10px;
+    right: -1px;
+    position: absolute;
+    top: -1px;
+    width: calc(100% + 2px);
+}
+
+.draftResponseHeader .freebirdFormviewerViewHeaderHeaderBody {
+    padding-bottom: 12px;
+}
+
+.freebirdFormviewerViewHeaderTitleRow {
+    -webkit-box-align: center;
+    box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    box-pack: justify;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+
+.m2 .freebirdFormviewerViewHeaderTitle {
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #202124;
+    line-height: 135%;
+    max-width: 100%;
+    min-width: 0%;
+}
+.freebirdFormviewerViewHeaderTitle {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 34px;
+    line-height: 135%;
+    max-width: 100%;
+    min-width: 0%;
+}
+
+.m2 .freebirdFormviewerViewFormContent>div, .freebirdFormviewerViewFormContent>.freebirdFormviewerViewNoPadding {
+    padding: 0;
+}
+.freebirdFormviewerViewFormContent>.freebirdFormviewerViewItemList {
+    padding: 0 17px;
+}
+.freebirdFormviewerViewFormContent>div, .freebirdFormviewerViewFormContent>.freebirdFormviewerViewItemList>.freebirdFormviewerViewSubmitMessage {
+    padding: 0 34px;
+}
+
+.freebirdFormviewerComponentsQuestionBaseRoot {
+    -webkit-transition: background-color 200ms cubic-bezier(0,0,0.2,1);
+    transition: background-color 200ms cubic-bezier(0,0,0.2,1);
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    padding: 24px;
+    page-break-inside: avoid;
+    word-wrap: break-word;
+}
+
+.freebirdFormviewerComponentsQuestionBaseHeader {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    box-pack: justify;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.freebirdFormviewerComponentsQuestionBaseTitleDescContainer {
+    -webkit-box-align: start;
+    box-align: start;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    max-width: 100%;
+    min-width: 0%;
+    position: relative;
+}
+
+.freebirdFormviewerComponentsQuestionBaseTitle {
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 16px;
+    letter-spacing: .1px;
+    line-height: 24px;
+    color: #202124;
+    font-weight: 400;
+    width: 100%;
+    word-break: break-word;
+}
+
+.freebirdFormviewerComponentsQuestionBaseRequiredAsterisk {
+    color: #d93025;
+}
+
+.freebirdFormviewerComponentsQuestionBaseRoot {
+    -webkit-transition: background-color 200ms cubic-bezier(0,0,0.2,1);
+    transition: background-color 200ms cubic-bezier(0,0,0.2,1);
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    padding: 24px;
+    page-break-inside: avoid;
+    word-wrap: break-word;
+}
+
+.freebirdFormviewerComponentsQuestionTextShort.freebirdFormviewerComponentsQuestionTextTextInput {
+    width: 50%;
+}
+.quantumWizTextinputPaperinputEl {
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    display: inline-block;
+    outline: none;
+    padding-bottom: 8px;
+    width: 200px;
+}
+
+.quantumWizTextinputPaperinputContentArea {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    position: relative;
+    top: 14px;
+}
+
+.quantumWizTextinputPaperinputMainContent {
+    height: 40px;
+    position: relative;
+    vertical-align: top;
+}
+
+.quantumWizTextinputPaperinputInputArea {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    -webkit-flex-shrink: 1;
+    flex-shrink: 1;
+    min-width: 0%;
+    position: relative;
+}
+
+.freebirdFormviewerComponentsQuestionTextTextInput .exportInput, .freebirdFormviewerComponentsQuestionTextTextInput .exportTextarea {
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 20px;
+    color: #202124;
+}
+
+.quantumWizTextinputPaperinputInput {
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    -webkit-flex-shrink: 1;
+    flex-shrink: 1;
+    background-color: transparent;
+    border: none;
+    display: block;
+    font: 400 16px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    height: 24px;
+    line-height: 24px;
+    margin: 0;
+    min-width: 0%;
+    outline: none;
+    padding: 0;
+    z-index: 0;
+}
+
+.freebirdFormviewerComponentsQuestionTextTextInput .exportLabel {
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 20px;
+    color: #70757a;
+}
+.quantumWizTextinputPaperinputPlaceholder {
+    color: rgba(0,0,0,0.38);
+    font: 400 16px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    max-width: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    text-overflow: ellipsis;
+    top: 2px;
+    right: 0;
+    white-space: nowrap;
+}
+
+.quantumWizTextinputPaperinputUnderline {
+    background-color: rgba(0,0,0,0.12);
+    bottom: -2px;
+    height: 1px;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.quantumWizTextinputPaperinputEl.isFocused .quantumWizTextinputPaperinputFocusUnderline {
+    -webkit-animation: quantumWizPaperInputAddUnderline .3s cubic-bezier(0.4,0,0.2,1);
+    animation: quantumWizPaperInputAddUnderline .3s cubic-bezier(0.4,0,0.2,1);
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    transition: width 0.5s, height 0.5s, background-color 0.5s, transform 0.5s;
+}
+.freebirdThemedInput .exportFocusUnderline {
+    background-color: rgb(41, 137, 4);
+}
+.quantumWizTextinputPaperinputFocusUnderline.animationInitialized {
+    -webkit-animation: quantumWizPaperInputRemoveUnderline .3s cubic-bezier(0.4,0,0.2,1);
+    animation: quantumWizPaperInputRemoveUnderline .3s cubic-bezier(0.4,0,0.2,1);
+}
+.quantumWizTextinputPaperinputFocusUnderline {
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    background-color: #4285f4;
+    bottom: -2px;
+    height: 2px;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+}
+
+
+.quantumWizTextinputPaperinputCounterErrorHolder {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.freebirdFormviewerComponentsQuestionBaseValidationError {
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: .3px;
+    line-height: 16px;
+    color: #70757a;
+    color: #d93025;
+    display: none;
+}
+
+.m2 .freebirdFormviewerComponentsQuestionSelectSelect {
+    border: 1px solid #dadce0;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    margin-top: 8px;
+    max-width: 100%;
+}
+
+.quantumWizMenuPaperselectEl {
+    -webkit-user-select: none;
+    -webkit-transition: background .3s;
+    transition: background .3s;
+    border: 0;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color: #444;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    outline: none;
+    position: relative;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.appsMaterialWizMenuPaperselectSelect:not(.isOpen) .exportOption.isSelected {
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.appsMaterialWizMenuPaperselectSelect.noMaxWidth .appsMaterialWizMenuPaperselectOption {
+    max-width: none;
+}
+.quantumWizMenuPaperselectOptionList .quantumWizMenuPaperselectOption.isSelected {
+    height: auto;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.quantumWizMenuPaperselectOption.isPlaceholder {
+    color: rgba(0,0,0,0.54);
+}
+.appsMaterialWizMenuPaperselectOption {
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 20px;
+    color: #202124;
+    max-width: 280px;
+    min-width: 112px;
+    padding-left: 48px;
+}
+.quantumWizMenuPaperselectOption {
+    border-color: transparent;
+    color: #222;
+    height: 0;
+    list-style: none;
+    outline: none;
+    overflow: hidden;
+    padding-right: 16px;
+    padding-left: 24px;
+    position: relative;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.quantumWizMenuPaperselectEl .quantumWizMenuPaperselectRipple {
+    background-image: radial-gradient(circle farthest-side,rgba(153,153,153,0.4),rgba(153,153,153,0.4) 80%,rgba(153,153,153,0) 100%);
+}
+
+.quantumWizMenuPaperselectRipple {
+    -webkit-transform: translate(-50%,-50%) scale(0);
+    transform: translate(-50%,-50%) scale(0);
+    -webkit-transition: -webkit-transform 0 linear .2s,opacity .2s ease;
+    transition: -webkit-transform 0 linear .2s,opacity .2s ease;
+    -webkit-transition: transform 0 linear .2s,opacity .2s ease;
+    transition: transform 0 linear .2s,opacity .2s ease;
+    -webkit-background-size: cover;
+    background-size: cover;
+    right: 0;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+}
+
+.appsMaterialWizMenuPaperselectSelect .exportContent {
+    line-height: 32px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    overflow: hidden;
+}
+.quantumWizMenuPaperselectContent {
+    position: relative;
+}
+
+.appsMaterialWizMenuPaperselectOptionSeparator {
+    border-top: 0;
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+#select {
+    width: 100%;
+    border: 1px solid #dadce0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#select {
+    min-width: 280px;
+    max-width: 112px;
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    font-size: 1.25rem;
+    cursor: pointer;
+    line-height: 32px;
+    appearance: none;
+    outline: 0;
+}
+#standard-select {
+    height: 40px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+#display {
+    display: block;
+}
+
+#height {
+    height: 155px;
+}
+
+#bottom {
+    bottom: -83px;
+}
+
+input.submit {
+    background-color: rgb(41, 137, 4);
+    color: #fff;
+    border: navajowhite;
+    padding: 9px;
+    width: 13%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+input.submit:hover {
+    opacity: 0.7;
+}
+
+input.clear {
+    float: left;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+    margin-top: -30px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+}
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+span.copyright {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+span.copyright a {
+    color: #000;
+}
+
+
+
+
+
+
